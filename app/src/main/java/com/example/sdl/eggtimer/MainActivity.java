@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     myAlarm.setLooping(true);
                     myAlarm.start();
                 }//onFinish end
-            }.start(); // CountDownTimer end .
+            }.start(); // CountDownTimer end ...
 
         } else {
             myAlarm.stop();
