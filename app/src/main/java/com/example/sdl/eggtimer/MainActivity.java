@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int iProgress, boolean bFromUser) {
                 int minutes;
                 int seconds;
-                minutes = (int) iProgress / 60;
+                minutes = iProgress / 60;
                 seconds = iProgress - minutes * 60;
                 String secondString = String.valueOf(seconds);
 
